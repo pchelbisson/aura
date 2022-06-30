@@ -1,0 +1,42 @@
+:root {
+  --black: #07060b;
+  --button-cta: linear-gradient(180deg, #46f4db 27.08%, #57d272 100%);
+  --grey-light: #ededf2;
+  --red: #d13130;
+  --white: #ffffff;
+  --grey-dark: #717178;
+  --grey-middle: #95959d;
+  --primery: #46f4db;
+  --primery-active: #57d272;
+  --grey-deep: #37373e;
+  --red-secondadry: #ff6f6f;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: local("Muller-Bold"), url("../fonts/MullerBold.woff2") format("woff2"),
+    url("../fonts/MullerBold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: local("Muller-Regular"),
+    url("../fonts/MullerRegular.woff2") format("woff2"),
+    url("../fonts/MullerRegular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Russo One";
+  src: local("Russo-One-Regular"),
+    url("../fonts/RussoOneRegular.woff2") format("woff2"),
+    url("../fonts/RussoOne-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
